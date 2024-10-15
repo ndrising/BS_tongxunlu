@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>个人通讯录系统</title>
+    <style>
+        /* 设置页面背景和居中布局 */
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center; /* 水平居中 */
+            align-items: center;     /* 垂直居中 */
+            background-color: #f0f8ff; /* 背景颜色 */
+            font-family: Arial, sans-serif;
+        }
+
+        /* 容器样式 */
+        .container {
+            text-align: center;
+            background-color: #fff; /* 背景为白色 */
+            padding: 40px;
+            border-radius: 10px; /* 圆角 */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+            width: 400px;
+        }
+
+        /* 标题样式 */
+        h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        /* 链接按钮样式 */
+        a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* 按钮背景色 */
+            color: white; /* 按钮文字颜色 */
+            text-decoration: none;
+            border-radius: 5px; /* 圆角 */
+            transition: background-color 0.3s ease; /* 鼠标悬停时的平滑过渡效果 */
+        }
+
+        a:hover {
+            background-color: #45a049; /* 鼠标悬停时按钮颜色变化 */
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2>欢迎使用个人通讯录系统</h2>
+    <a href="view_contacts">查看联系人信息</a><br>
+    <a href="add_contact.html">添加新联系人</a><br>
+    <a href="modify_contact.html">修改联系人信息</a><br>
+    <a href="delete_contact.html">删除联系人</a>
+</div>
+</body>
+</html>

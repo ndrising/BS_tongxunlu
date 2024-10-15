@@ -1,0 +1,42 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+         http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0">
+
+    <servlet>
+        <servlet-name>ViewContactsServlet</servlet-name>
+        <servlet-class>ViewContactsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewContactsServlet</servlet-name>
+        <url-pattern>/view_contacts</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddContactServlet</servlet-name>
+        <servlet-class>AddContactServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddContactServlet</servlet-name>
+        <url-pattern>/add_contact</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ModifyContactServlet</servlet-name>
+        <servlet-class>ModifyContactServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ModifyContactServlet</servlet-name>
+        <url-pattern>/modify_contact</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteContactServlet</servlet-name>
+        <servlet-class>DeleteContactServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteContactServlet</servlet-name>
+        <url-pattern>/delete_contact</url-pattern>
+    </servlet-mapping>
+</web-app>
